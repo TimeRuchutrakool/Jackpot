@@ -8,21 +8,84 @@
 
 /* Begin PBXBuildFile section */
 		F4AC213729CF329400C67013 /* JACKPOTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC213629CF329400C67013 /* JACKPOTApp.swift */; };
-		F4AC213929CF329400C67013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC213829CF329400C67013 /* ContentView.swift */; };
+		F4AC213929CF329400C67013 /* SlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC213829CF329400C67013 /* SlotView.swift */; };
 		F4AC213B29CF329500C67013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AC213A29CF329500C67013 /* Assets.xcassets */; };
 		F4AC213E29CF329500C67013 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AC213D29CF329500C67013 /* Preview Assets.xcassets */; };
+		F4AC214529CF34AA00C67013 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AC214429CF34AA00C67013 /* Launch Screen.storyboard */; };
+		F4AC214929CF35CA00C67013 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC214829CF35CA00C67013 /* HeaderView.swift */; };
+		F4AC214B29CF3D7300C67013 /* Reel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC214A29CF3D7300C67013 /* Reel.swift */; };
+		F4AC214D29CFED7300C67013 /* TextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC214C29CFED7300C67013 /* TextExtension.swift */; };
+		F4AC214F29CFF36C00C67013 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC214E29CFF36C00C67013 /* Constant.swift */; };
+		F4AC215129CFF3E200C67013 /* ReelImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC215029CFF3E200C67013 /* ReelImage.swift */; };
+		F4AC215329CFF57D00C67013 /* BetCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC215229CFF57D00C67013 /* BetCoin.swift */; };
+		F4AC215529D022E500C67013 /* Chips.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC215429D022E500C67013 /* Chips.swift */; };
+		F4AC215D29D024CB00C67013 /* JACKPOTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC215C29D024CB00C67013 /* JACKPOTTests.swift */; };
+		F4AC216C29D0358800C67013 /* SlotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC216B29D0358800C67013 /* SlotViewModel.swift */; };
+		F4AC217029D0A77800C67013 /* SpinTapModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC216F29D0A77800C67013 /* SpinTapModifier.swift */; };
+		F4AC217A29D1613700C67013 /* JACKPOTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC217929D1613700C67013 /* JACKPOTUITests.swift */; };
+		F4AC217C29D1613700C67013 /* JACKPOTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC217B29D1613700C67013 /* JACKPOTUITestsLaunchTests.swift */; };
+		F4AC218429D1648100C67013 /* SlotViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC218329D1648100C67013 /* SlotViewPage.swift */; };
+		F4AC218729D16F6700C67013 /* Springboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC218629D16F6700C67013 /* Springboard.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4AC215E29D024CB00C67013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4AC212B29CF329400C67013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4AC213229CF329400C67013;
+			remoteInfo = JACKPOT;
+		};
+		F4AC217D29D1613700C67013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4AC212B29CF329400C67013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4AC213229CF329400C67013;
+			remoteInfo = JACKPOT;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F4AC213329CF329400C67013 /* JACKPOT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JACKPOT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AC213629CF329400C67013 /* JACKPOTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JACKPOTApp.swift; sourceTree = "<group>"; };
-		F4AC213829CF329400C67013 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4AC213829CF329400C67013 /* SlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotView.swift; sourceTree = "<group>"; };
 		F4AC213A29CF329500C67013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4AC213D29CF329500C67013 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4AC214429CF34AA00C67013 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F4AC214829CF35CA00C67013 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F4AC214A29CF3D7300C67013 /* Reel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reel.swift; sourceTree = "<group>"; };
+		F4AC214C29CFED7300C67013 /* TextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtension.swift; sourceTree = "<group>"; };
+		F4AC214E29CFF36C00C67013 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F4AC215029CFF3E200C67013 /* ReelImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelImage.swift; sourceTree = "<group>"; };
+		F4AC215229CFF57D00C67013 /* BetCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetCoin.swift; sourceTree = "<group>"; };
+		F4AC215429D022E500C67013 /* Chips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chips.swift; sourceTree = "<group>"; };
+		F4AC215A29D024CB00C67013 /* JACKPOTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JACKPOTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AC215C29D024CB00C67013 /* JACKPOTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JACKPOTTests.swift; sourceTree = "<group>"; };
+		F4AC216B29D0358800C67013 /* SlotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotViewModel.swift; sourceTree = "<group>"; };
+		F4AC216F29D0A77800C67013 /* SpinTapModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinTapModifier.swift; sourceTree = "<group>"; };
+		F4AC217729D1613700C67013 /* JACKPOTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JACKPOTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AC217929D1613700C67013 /* JACKPOTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JACKPOTUITests.swift; sourceTree = "<group>"; };
+		F4AC217B29D1613700C67013 /* JACKPOTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JACKPOTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4AC218329D1648100C67013 /* SlotViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotViewPage.swift; sourceTree = "<group>"; };
+		F4AC218629D16F6700C67013 /* Springboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Springboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F4AC213029CF329400C67013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AC215729D024CB00C67013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AC217429D1613700C67013 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				F4AC213529CF329400C67013 /* JACKPOT */,
+				F4AC215B29D024CB00C67013 /* JACKPOTTests */,
+				F4AC217829D1613700C67013 /* JACKPOTUITests */,
 				F4AC213429CF329400C67013 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				F4AC213329CF329400C67013 /* JACKPOT.app */,
+				F4AC215A29D024CB00C67013 /* JACKPOTTests.xctest */,
+				F4AC217729D1613700C67013 /* JACKPOTUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,9 +119,14 @@
 			isa = PBXGroup;
 			children = (
 				F4AC213629CF329400C67013 /* JACKPOTApp.swift */,
-				F4AC213829CF329400C67013 /* ContentView.swift */,
+				F4AC214629CF357400C67013 /* View */,
+				F4AC216D29D0388F00C67013 /* ViewModel */,
+				F4AC214729CF35B800C67013 /* ViewComponents */,
+				F4AC216E29D0A74F00C67013 /* Modifier */,
+				F4AC216429D02AE600C67013 /* Utilities */,
 				F4AC213A29CF329500C67013 /* Assets.xcassets */,
 				F4AC213C29CF329500C67013 /* Preview Content */,
+				F4AC214429CF34AA00C67013 /* Launch Screen.storyboard */,
 			);
 			path = JACKPOT;
 			sourceTree = "<group>";
@@ -65,6 +137,86 @@
 				F4AC213D29CF329500C67013 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4AC214629CF357400C67013 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4AC213829CF329400C67013 /* SlotView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4AC214729CF35B800C67013 /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				F4AC214829CF35CA00C67013 /* HeaderView.swift */,
+				F4AC214A29CF3D7300C67013 /* Reel.swift */,
+				F4AC215229CFF57D00C67013 /* BetCoin.swift */,
+				F4AC215029CFF3E200C67013 /* ReelImage.swift */,
+				F4AC215429D022E500C67013 /* Chips.swift */,
+			);
+			path = ViewComponents;
+			sourceTree = "<group>";
+		};
+		F4AC215B29D024CB00C67013 /* JACKPOTTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4AC215C29D024CB00C67013 /* JACKPOTTests.swift */,
+			);
+			path = JACKPOTTests;
+			sourceTree = "<group>";
+		};
+		F4AC216429D02AE600C67013 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F4AC214C29CFED7300C67013 /* TextExtension.swift */,
+				F4AC214E29CFF36C00C67013 /* Constant.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F4AC216D29D0388F00C67013 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F4AC216B29D0358800C67013 /* SlotViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F4AC216E29D0A74F00C67013 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				F4AC216F29D0A77800C67013 /* SpinTapModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		F4AC217829D1613700C67013 /* JACKPOTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4AC218529D16F5C00C67013 /* Utils */,
+				F4AC218229D1646100C67013 /* PageObject */,
+				F4AC217929D1613700C67013 /* JACKPOTUITests.swift */,
+				F4AC217B29D1613700C67013 /* JACKPOTUITestsLaunchTests.swift */,
+			);
+			path = JACKPOTUITests;
+			sourceTree = "<group>";
+		};
+		F4AC218229D1646100C67013 /* PageObject */ = {
+			isa = PBXGroup;
+			children = (
+				F4AC218329D1648100C67013 /* SlotViewPage.swift */,
+			);
+			path = PageObject;
+			sourceTree = "<group>";
+		};
+		F4AC218529D16F5C00C67013 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F4AC218629D16F6700C67013 /* Springboard.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +239,42 @@
 			productReference = F4AC213329CF329400C67013 /* JACKPOT.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F4AC215929D024CB00C67013 /* JACKPOTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4AC216029D024CB00C67013 /* Build configuration list for PBXNativeTarget "JACKPOTTests" */;
+			buildPhases = (
+				F4AC215629D024CB00C67013 /* Sources */,
+				F4AC215729D024CB00C67013 /* Frameworks */,
+				F4AC215829D024CB00C67013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4AC215F29D024CB00C67013 /* PBXTargetDependency */,
+			);
+			name = JACKPOTTests;
+			productName = JACKPOTTests;
+			productReference = F4AC215A29D024CB00C67013 /* JACKPOTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4AC217629D1613700C67013 /* JACKPOTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4AC217F29D1613700C67013 /* Build configuration list for PBXNativeTarget "JACKPOTUITests" */;
+			buildPhases = (
+				F4AC217329D1613700C67013 /* Sources */,
+				F4AC217429D1613700C67013 /* Frameworks */,
+				F4AC217529D1613700C67013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4AC217E29D1613700C67013 /* PBXTargetDependency */,
+			);
+			name = JACKPOTUITests;
+			productName = JACKPOTUITests;
+			productReference = F4AC217729D1613700C67013 /* JACKPOTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +287,14 @@
 				TargetAttributes = {
 					F4AC213229CF329400C67013 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					F4AC215929D024CB00C67013 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F4AC213229CF329400C67013;
+					};
+					F4AC217629D1613700C67013 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F4AC213229CF329400C67013;
 					};
 				};
 			};
@@ -116,6 +312,8 @@
 			projectRoot = "";
 			targets = (
 				F4AC213229CF329400C67013 /* JACKPOT */,
+				F4AC215929D024CB00C67013 /* JACKPOTTests */,
+				F4AC217629D1613700C67013 /* JACKPOTUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +323,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4AC214529CF34AA00C67013 /* Launch Screen.storyboard in Resources */,
 				F4AC213E29CF329500C67013 /* Preview Assets.xcassets in Resources */,
 				F4AC213B29CF329500C67013 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AC215829D024CB00C67013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AC217529D1613700C67013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +350,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4AC213929CF329400C67013 /* ContentView.swift in Sources */,
+				F4AC213929CF329400C67013 /* SlotView.swift in Sources */,
+				F4AC215529D022E500C67013 /* Chips.swift in Sources */,
+				F4AC214B29CF3D7300C67013 /* Reel.swift in Sources */,
+				F4AC216C29D0358800C67013 /* SlotViewModel.swift in Sources */,
+				F4AC214D29CFED7300C67013 /* TextExtension.swift in Sources */,
+				F4AC214929CF35CA00C67013 /* HeaderView.swift in Sources */,
 				F4AC213729CF329400C67013 /* JACKPOTApp.swift in Sources */,
+				F4AC215329CFF57D00C67013 /* BetCoin.swift in Sources */,
+				F4AC215129CFF3E200C67013 /* ReelImage.swift in Sources */,
+				F4AC217029D0A77800C67013 /* SpinTapModifier.swift in Sources */,
+				F4AC214F29CFF36C00C67013 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AC215629D024CB00C67013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AC215D29D024CB00C67013 /* JACKPOTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AC217329D1613700C67013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AC218429D1648100C67013 /* SlotViewPage.swift in Sources */,
+				F4AC217A29D1613700C67013 /* JACKPOTUITests.swift in Sources */,
+				F4AC217C29D1613700C67013 /* JACKPOTUITestsLaunchTests.swift in Sources */,
+				F4AC218729D16F6700C67013 /* Springboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4AC215F29D024CB00C67013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4AC213229CF329400C67013 /* JACKPOT */;
+			targetProxy = F4AC215E29D024CB00C67013 /* PBXContainerItemProxy */;
+		};
+		F4AC217E29D1613700C67013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4AC213229CF329400C67013 /* JACKPOT */;
+			targetProxy = F4AC217D29D1613700C67013 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F4AC213F29CF329500C67013 /* Debug */ = {
@@ -270,11 +524,14 @@
 				DEVELOPMENT_TEAM = 33WMDPGAG6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Jackpot;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.casino-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +556,14 @@
 				DEVELOPMENT_TEAM = 33WMDPGAG6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Jackpot;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.casino-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +574,76 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4AC216129D024CB00C67013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33WMDPGAG6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.chula.cbs.stat.JACKPOTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JACKPOT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JACKPOT";
+			};
+			name = Debug;
+		};
+		F4AC216229D024CB00C67013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33WMDPGAG6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.chula.cbs.stat.JACKPOTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JACKPOT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JACKPOT";
+			};
+			name = Release;
+		};
+		F4AC218029D1613700C67013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33WMDPGAG6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.chula.cbs.stat.JACKPOTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JACKPOT;
+			};
+			name = Debug;
+		};
+		F4AC218129D1613700C67013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33WMDPGAG6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.chula.cbs.stat.JACKPOTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JACKPOT;
 			};
 			name = Release;
 		};
@@ -334,6 +664,24 @@
 			buildConfigurations = (
 				F4AC214229CF329500C67013 /* Debug */,
 				F4AC214329CF329500C67013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4AC216029D024CB00C67013 /* Build configuration list for PBXNativeTarget "JACKPOTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AC216129D024CB00C67013 /* Debug */,
+				F4AC216229D024CB00C67013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4AC217F29D1613700C67013 /* Build configuration list for PBXNativeTarget "JACKPOTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AC218029D1613700C67013 /* Debug */,
+				F4AC218129D1613700C67013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

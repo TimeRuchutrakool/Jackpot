@@ -11,7 +11,7 @@ import SwiftUI
 struct JACKPOTApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SlotView()
         }
     }
 }
